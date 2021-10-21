@@ -1,0 +1,64 @@
+Introduction to Go
+
+* Why Go
+
+- compiled
+- statically typed
+- concurrent
+- multi-platform
+- cross-platform
+
+* Who's using
+
+- kubernetes
+- docker
+- grafana
+- etcd
+- traefik
+- vault
+
+* Tooling
+
+- vet
+- fmt
+- race detector
+
+* Examples
+
+- Hello world
+
+.play compile/hello.go
+
+* Examples
+
+- Toy webserver
+
+.code -numbers webserver/ws.go /^//START/,/^//END/
+
+* Examples
+
+- Testing the webserver
+
+.code -edit -numbers webserver/ws_test.go
+
+* Examples
+
+- Function literals
+
+.play -numbers examples/function_literals.go
+
+* Examples
+
+- Function closures
+
+.play -numbers examples/function_closures.go
+
+* Examples
+
+- Channels
+
+.play -numbers channels/example.go
+
+* Tour of Go
+
+.link https://tour.golang.org/
