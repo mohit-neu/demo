@@ -19,9 +19,15 @@ Introduction to Go
 
 * Tooling
 
-- vet
-- fmt
-- race detector
+.link https://pkg.go.dev/cmd/vet vet
+Vet examines Go source code and reports suspicious constructs
+.link https://pkg.go.dev/cmd/gofmt gofmt
+Gofmt formats Go programs
+.link https://pkg.go.dev/cmd/pprof pprof
+Pprof interprets and displays profiles of Go programs
+.link https://pkg.go.dev/cmd/go#hdr-Compile_packages_and_dependencies race detector
+.link https://pkg.go.dev/cmd/go#hdr-Show_documentation_for_package_or_symbol go doc
+Doc prints the documentation comments associated with the item identified by its arguments
 
 * Examples
 
@@ -58,6 +64,12 @@ Introduction to Go
 - Channels
 
 .play -numbers channels/example.go
+
+* Coming up!
+
+.link https://go2goplay.golang.org/p/GiwHCK0u2EQ Generics
+
+.code -edit -numbers examples/generics.go
 
 * Tour of Go
 
