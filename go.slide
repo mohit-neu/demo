@@ -82,3 +82,5 @@ Doc prints the documentation comments associated with the item identified by its
 .link https://github.com/golang/go/wiki/Learn Learning resources
 
 .link https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins Editors and IDEs for Go
+
+.link https://awesome-go.com/ A curated list of awesome Go frameworks, libraries and software
