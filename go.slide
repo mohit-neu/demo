@@ -74,3 +74,11 @@ Doc prints the documentation comments associated with the item identified by its
 * Tour of Go
 
 .link https://tour.golang.org/
+
+* Resources
+
+.link https://github.com/golang/go/wiki go wiki
+
+.link https://github.com/golang/go/wiki/Learn Learning resources
+
+.link https://github.com/golang/go/wiki/IDEsAndTextEditorPlugins Editors and IDEs for Go
